@@ -1,3 +1,10 @@
-void main(List<String> args) {
-  print("Hello World!");
+void main() {
+  // print("Hello World!");
+  print("      /|");
+  print("     / |");
+  print("    /  |");
+  print("   /   |");
+  print("  /    |");
+  print(" /     |");
+  print("/______|");
 }
