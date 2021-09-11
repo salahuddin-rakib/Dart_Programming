@@ -1,21 +1,23 @@
+// If we want to use min(), max() or sqrt() methods then we need to import 'dart:math' pakage.
+import 'dart:math';
+
 void main() {
-  String gretings = "Hello";
-  print(gretings.length); // Output: 5
-  print(gretings[3]); // Output: l
+//   print(3 + 2); // Addition example
+//   print(3 - 2); // Subtraction example
+//   print(3 * 2); // Multiplication example
+//   print(3 / 2); // Division example
+  // print(3 % 2); // Remainder example
 
-  print(gretings.toLowerCase()); // Output: hello
-  print(gretings.toUpperCase()); // Output: HELLO
+  int quantity = 200;
+  double price = 1.45;
 
-  // If the character is inside of this character:
-  print(gretings.indexOf('o')); // Output: 4
-  print(gretings.contains('o')); // Output: true
+  print("The price of the purchase: ${quantity * price}\n");
 
-  // String concatination and Interpolation
-  String gretings2 = "World";
+  print(
+      "Maximum value among 100, 71 is: ${max(100, 71)}\n"); // dart:math pakages method
 
-  // Concatination:
-  print(gretings + " " + gretings2); // Output: Hello World
+  print(
+      "Minimum value among 100, 71 is: ${min(100, 71)}\n"); // dart:math pakages method
 
-  // Interpolation:
-  print("The gretings is: ${gretings} ${gretings2}"); // Output: Hello World
+  print("Squareroot of 144 is: ${sqrt(144)}"); // dart:math pakages method
 }
